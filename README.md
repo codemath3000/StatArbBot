@@ -1,2 +1,1 @@
-# StatArbBot
-A basic trading strategy using pairs trading and statistical arbitrage
+This notebook demonstrates a basic trading strategy using pairs trading and statistical arbitrage. It queries market data from the Polygon API and then uses that to generate candidate pairs of tickers. Those that show correlation are selected and backtested. This produces a Sharpe ratio of 2.1247, and the associated PnL graph is included in this repository.
